@@ -21,6 +21,7 @@ install:
 
 script:
   - vendor/bin/phpunit
+  - vendor/bin/phplint src tests
 
 jobs:
   include:
